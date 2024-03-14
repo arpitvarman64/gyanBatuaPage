@@ -1,9 +1,8 @@
-import { Box, Button, FormControl, Paper, Typography } from "@mui/material";
-import { ErrorMessage, Field, Form, Formik } from "formik";
+import { Box, Button, Paper, Typography } from "@mui/material";
 
 
 
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+
 
 const EmailVerified = () => {
     const handleSubmit={}

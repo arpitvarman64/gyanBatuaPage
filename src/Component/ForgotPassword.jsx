@@ -1,7 +1,7 @@
 import { Box, Button, FormControl, Paper, TextField, Typography } from "@mui/material";
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import * as Yup from "yup";
-import MailOutlineIcon from "@mui/icons-material/MailOutline";
+
 
 const ForgotPassword = () => {
     const linkStyle = {
