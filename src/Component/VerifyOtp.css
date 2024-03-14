@@ -1,0 +1,37 @@
+input[type="tel"] {
+  text-align: center;
+  border: 2px solid rgb(172, 145, 145, 0.3) !important;
+}
+
+.input-class {
+  text-align: center;
+}
+
+input[data-testid="input"] {
+  width: 53px !important;
+  height: 53px !important;
+
+  border-radius: 10px !important;
+}
+
+@media (max-width: 768px) {
+  input[data-testid="input"] {
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 6px !important;
+  }
+}
+
+@media (max-width: 460px) {
+  input[data-testid="input"] {
+    width: 37px !important;
+    height: 37px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  input[data-testid="input"] {
+    width: 26px !important;
+    height: 26px !important;
+  }
+}
